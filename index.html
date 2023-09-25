@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>QR Code Generator</h1>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <main>
+        <div class="qr-container">
+            <h2>Generate QR Code</h2>
+            <input type="text" id="qr-text" placeholder="Enter text or URL">
+            <button id="generate-btn">Generate QR Code</button>
+            <div class="qr-code" id="qr-code"></div>
+        </div>
+    </main>
+    <footer>
+        <p><a href="https://github.com/Hitjab" target="_blank" >© Hitjab 2023</a></p>
+    </footer>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
